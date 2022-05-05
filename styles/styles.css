@@ -826,7 +826,9 @@ ul {
     font-family: inherit;
     border: none;
 
-    transition: color var(--animation);
+    transition: color var(--animation),
+        background-color var(--animation),
+        box-shadow var(--animation);
 }
 
 .button-secondary {
